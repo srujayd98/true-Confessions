@@ -3,7 +3,7 @@
 function setcomment($conn){
     if(!empty($_POST['g-recaptcha-response'])){
     include "dbh.inc.php";
-    $secret = '6LdXVokcAAAAACHb9Hn6H41-Q4kA5fqkc8XmlU-M';
+    $secret = 'secret-key';
     $verfiyres = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
     $resdata = json_decode($verfiyres);
     if(isset($_POST['submitc'])&&$_POST['comment']&&!empty(trim($_POST['comment']))&&$resdata->success){
