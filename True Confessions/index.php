@@ -43,7 +43,7 @@ getcomment($conn);
 echo "<form class='cen' method='POST' >
     <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
     <textarea class='txet' name='comment' placeholder='confess here...'></textarea><br>
-    <div class='g-recaptcha' data-sitekey='6LdXVokcAAAAAF8wUurraBkqqJLP7-NWLV30_eyB'></div><br>
+    <div class='g-recaptcha' data-sitekey='site-key'></div><br>
     <button type='submit' name='submitc' action='".setcomment($conn)."'>Confess</button> 
 </form>";
 ?>
