@@ -15,6 +15,11 @@
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <!-- social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- tab icon -->
+    <link rel="icon" href="TC.png">
+    <!-- tab color -->
+    <meta name="theme-color" content="rgb(0,106,175 )"> 
+    <meta name="apple-mobile-web-app-status-bar-style" content="rgb(0,106,175 )">
     <title>True Confessions</title>
 </head>
 <body>
